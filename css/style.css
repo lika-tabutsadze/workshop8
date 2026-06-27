@@ -324,7 +324,7 @@
 .footer_text a {
     color: white;
     font-size: 18px;
-    
+
 }
 
 /* RESPONSIVE */
@@ -426,6 +426,10 @@
     }
 
     /* FOOTER */
+
+    .footer-container {
+        max-width: 834px;
+    }
 }
 
  @media (max-width:375px){
@@ -530,6 +534,8 @@
     }
 
     /* FOOTER */
-    
+    .footer-container {
+        max-width: 375px;
+    }
  }
     
