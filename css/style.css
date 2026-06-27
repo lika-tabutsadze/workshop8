@@ -302,15 +302,41 @@
     font-weight: 400;
 }
 
+/* STYLING THE FOOTER */
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    min-height: 100px;
+    background-color: black;
+    margin: 71px auto 0px;
+}
+
+.footer_text {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+}
+
+.footer_text a {
+    color: white;
+    font-size: 18px;
+    
+}
 
 /* RESPONSIVE */
 
 @media (max-width:834px){
+    /* HEADER */
     .header-container {
         max-width: 834px;
         padding: 6px 21px 6px 92px;
 
     }
+    /* SECTION HERO */
 
     .hero {
         max-width: 834px;
@@ -329,6 +355,8 @@
         font-size: 20px;
     }
 
+    /* DISCOVERY SECTION */
+
     .discovery_card--hidden{
         display: none;
     }
@@ -344,9 +372,65 @@
     .discovery_card_text span {
         font-size: 14px;
     }
+
+    /* PHOTOGRAPH SECTION */
+
+    .photograph-container{
+        gap: 9px;
+        max-width: 700px;
+    }
+    .photograph_cards {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .photocard_left{
+        gap: 32px;
+    }
+
+    .photocard_right--hidden {
+        display: none;
+    }
+
+    .photograph_right {
+        flex-direction: row;
+        max-width: 700px;
+        gap: 20px;
+    }
+
+    .photocard_right {
+        max-width: 340px;
+        min-height: 251px;
+    }
+
+    .cover_text {
+        padding: 0px 32px 36px;
+    }
+    .cover_text h4 {
+        font-size: 28px;
+    }
+
+    .cover_text p {
+        font-size: 14px;
+    }
+
+    .photocard_textbox p {
+        font-size: 22px;
+    }
+    .photocard_textbox span {
+        font-size: 14px;
+    }
+
+    .photocard_textbox {
+        padding: 17px 17px 12px 18px;
+    }
+
+    /* FOOTER */
 }
 
  @media (max-width:375px){
+    /* HEADER */
+
     nav {
         display: none;
     }
@@ -362,6 +446,8 @@
         justify-content: space-between;
         padding: 6px 11px 6px 9px;
     }
+
+    /* SECTION HERO */
 
     .hero {
         display: flex;
@@ -390,6 +476,8 @@
         font-size: 14px;
     }
 
+    /* DISCOVERY SECTION */
+
     .discovery_container {
         max-width: 347px;
         gap: 6px;
@@ -402,5 +490,46 @@
     .discovery_card_text span {
         font-size: 14px;
     }
+
+    /* PHOTOGRAPH SECTION */
+
+    .photograph-container {
+        max-width: 375px;
+        gap: 11px;
+    }
+
+    .photograph_cards {
+        gap: 36px;
+    }
+
+    .photograph_left{
+        gap: 36px;
+    }
+
+    .photograph_right{
+        margin: auto;
+    }
+    .right_second {
+        display: none;
+    }
+
+    .photograph-container h3 {
+        padding-left: 15px;
+        font-size: 24px;
+    }
+
+    .cover_text {
+        padding: 0px 21px 28px;
+    }
+    .cover_text h4 {
+        font-size: 24px;
+    }
+
+    .cover_text p {
+        font-size: 12px;
+    }
+
+    /* FOOTER */
+    
  }
     
