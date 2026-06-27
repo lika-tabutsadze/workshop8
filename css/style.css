@@ -191,7 +191,7 @@
 
 }
 
-.discovery_card span {
+.discovery_card_text span {
     font-size: 16px;
     font-weight: 400;
 }
@@ -224,8 +224,10 @@
     .hero {
         max-width: 834px;
     }
+    
+    .hero-right{
+        display: none}
 
-    .hero-right {display: none;}
     .hero-left {
         min-height: 246px;
         max-width: 672px;
@@ -236,6 +238,21 @@
         font-size: 20px;
     }
 
+    .discovery_card--hidden{
+        display: none;
+    }
+
+    .discovery_container{
+        max-width: 698px;
+        gap: 30px;
+    }
+    .discovery_cards{
+        gap: 18px;
+    }
+
+    .discovery_card_text span {
+        font-size: 14px;
+    }
 }
 
  @media (max-width:375px){
@@ -279,6 +296,19 @@
 
     .hero-left p {
         padding: 0;
+        font-size: 14px;
+    }
+
+    .discovery_container {
+        max-width: 347px;
+        gap: 6px;
+    }
+
+    .discovery_cards {
+        flex-direction: column;
+        gap: 18px;
+    }
+    .discovery_card_text span {
         font-size: 14px;
     }
  }
