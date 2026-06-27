@@ -179,7 +179,7 @@
     display: flex;
     flex-direction: column;
     padding: 18px 20px 15px 21px;
-    gap:28px;
+    gap:4px;
     border: 1px solid black;
     border-top: none;
 }
@@ -209,7 +209,98 @@
 }
 
 
+/* STYLING THE PHOTOGRAPH SECTION */
 
+.photograph-container {
+    max-width: 1179px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    margin: auto;
+}
+
+.photograph-container h3 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Kanit", sans-serif;
+}
+
+.photograph_cards {
+    display: flex;
+    gap: 20px;
+}
+
+
+.photograph_left {
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+}
+
+.photocard_left {
+    max-width: 779px;
+    min-height: 400px;
+    background-image: url("../images/left_card1.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.cover_text {
+    color: white;
+    padding: 0px 36px 36px;
+    font-family: "Kanit", sans-serif;
+}
+
+.cover_text h4 {
+    font-size: 30px;
+    font-weight: 500;
+    height: 45px;
+}
+
+.left_bottom {
+    background-image: url("../images/left_card2.jpg");
+}
+
+
+.photograph_right {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.photocard_right {
+    max-width: 380px;
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.photocard_right {
+    width: 100%;
+    height: 100%;
+}
+
+.photocard_textbox {
+    display: flex;
+    flex-direction: column;
+    padding: 18px 20px 15px 21px;
+    gap:13px;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.photocard_textbox p {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Kanit", sans-serif;
+
+}
+
+.photocard_textbox span {
+    font-size: 16px;
+    font-weight: 400;
+}
 
 
 /* RESPONSIVE */
